@@ -1,0 +1,139 @@
+//****************************************************
+//  LEVEL 3 
+//****************************************************
+
+map_file, 110
+back_color, 0, 0, 0
+screen_color, 150, 160, 130//0, 0, 255
+time, 3600
+show_grid, 1
+show_map, 1
+show_legal_grid, 0
+show_tracks, 0
+hq, 736, 608
+firing, 1
+credits, 4000
+
+//balancing factors
+wavecountdivisor, 10
+advancedfactor, 1.5
+beginnerfactor, 1
+creditmultiplier, 100
+scoremultiplier, 50
+upgrademultiplier1, 1.5
+upgrademultiplier2, 2.5
+upgrademultiplier3, 3.5
+upgradecostmultiplier1, 0.75
+upgradecostmultiplier2, 1.5
+upgradecostmultiplier3, 3
+repaircostmultiplier1, 0.50
+repaircostmultiplier2, 1.0
+repaircostmultiplier3, 1.5
+damagebalanceupper, 1.1
+damagebalancelower, 0.9
+
+//define legal cells in map
+legal, clear
+legal, 1, 1, 17
+legal, 2, 1, 17
+legal, 3, 1, 17
+legal, 4, 1, 17
+legal, 5, 1, 17
+legal, 6, 1, 17
+legal, 7, 1, 17
+legal, 8, 1, 17
+legal, 9, 1, 17
+legal, 10, 1, 17
+legal, 1, 19, 14
+legal, 2, 19, 14
+legal, 3, 19, 14
+legal, 12, 1, 29
+legal, 13, 1, 29
+legal, 14, 1, 29
+legal, 16, 1, 32
+legal, 17, 1, 32
+legal, 18, 1, 32
+legal, 19, 1, 13
+legal, 20, 1, 13
+legal, 21, 1, 32
+legal, 19, 30, 3
+legal, 20, 30, 3
+legal, 4, 19, 11
+legal, 5, 19, 11
+legal, 6, 19, 11
+legal, 7, 19, 11
+legal, 8, 19, 11
+legal, 9, 19, 11
+legal, 10, 19, 11
+legal, 11, 19, 11
+legal, 5, 31, 2
+legal, 6, 31, 2
+legal, 7, 31, 2
+legal, 8, 31, 2
+legal, 9, 31, 2
+legal, 10, 31, 2
+legal, 11, 31, 2
+legal, 12, 31, 2
+legal, 13, 31, 2
+legal, 14, 31, 2
+legal, 15, 31, 2
+
+track, 0, 1062, 148, 10, 861, 437, 10, 479, 528, 10, 163, 490, 10, -33, 421, 10 //top air
+track, 1, 795, -17, 10, 671, 347, 10, 421, 409, 10, 171, 372, 10, -30, 294, 10 //middle air
+track, 2, -39, 556, 10, 227, 600, 10, 621, 601, 10, 1059, 516, 10 // bototm air
+
+track, 3, 560, -50, 2, 560, 335, 2, -50, 336, 2 //road 1
+track, 4, -50, 464, 3, 945, 464, 3, 944, 112, 3, 1043, 113, 3 //road 2 - bottom
+track, 5, -80, 225, 10, 77, 162, 10, 206, 94, 10, 500, -55, 10 //water
+
+//wave, timeToStart(seconds), trackIndex, objectID, quantity, spawnInterval (seconds)
+wave, 1, 3, 13, 5, 6
+wave, 10, 1, 11, 5, 2
+wave, 20, 4, 14, 5, 6
+wave, 43, 0, 12, 5, 3
+wave, 58, 3, 15, 5, 5
+wave, 65, 5, 8, 5, 8
+wave, 105, 2, 12, 6, 3
+wave, 123, 4, 15, 5, 5
+wave, 148, 0, 11, 6, 4
+wave, 150, 3, 13, 5, 6
+wave, 165, 5, 9, 3, 12
+wave, 175, 1, 12, 7, 2
+wave, 189, 2, 11, 12, 3
+wave, 225, 0, 12, 8, 3
+wave, 235, 3, 15, 5, 5
+wave, 248, 4, 14, 6, 6
+wave, 262, 0, 15, 5, 5
+wave, 270, 5, 10, 1, 20
+wave, 280, 0, 12, 10, 2
+wave, 290, 2, 12, 5, 2
+wave, 300, 3, 13, 5, 5
+wave, 325, 4, 14, 5, 5
+wave, 335, 1, 11, 12, 3
+wave, 350, 2, 12, 5, 5
+wave, 360, 3, 15, 5, 5
+wave, 370, 0, 11, 5, 2
+wave, 390, 4, 14, 12, 5
+wave, 400, 1, 12, 14, 2
+wave, 412, 2, 13, 11, 5
+wave, 415, 5, 8, 6, 12
+wave, 420, 3, 13, 4, 5
+wave, 435, 1, 12, 10, 2
+wave, 455, 4, 14, 8, 5
+wave, 470, 0, 11, 5, 4
+wave, 480, 3, 15, 10, 5
+wave, 485, 5, 9, 3, 12
+wave, 500, 4, 14, 5, 5
+wave, 510, 2, 12, 5, 1
+wave, 515, 1, 11, 5, 2
+wave, 520, 0, 12, 5, 2
+wave, 530, 5, 10, 3, 20
+wave, 540, 3, 13, 7, 5
+wave, 560, 4, 14, 6, 5
+wave, 590, 2, 11, 9, 3
+wave, 600, 1, 12, 8, 2
+wave, 610, 0, 11, 10, 2
+wave, 612, 5, 10, 1, 1
+wave, 613, 4, 15, 10, 5
+wave, 625, 2, 11, 15, 3
+wave, 650, 1, 12, 15, 2

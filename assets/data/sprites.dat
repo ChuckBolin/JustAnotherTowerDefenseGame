@@ -1,0 +1,87 @@
+texture, 0, grid.png, grid overlay
+texture, 1, map1.png, island and water map
+texture, 2, ships_towers.png, assortment of ships guns
+texture, 3, map2.png, second map
+texture, 4, map3.png, second map
+texture, 5, map4.png, second map
+
+
+sprite, 100, 0, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, grid
+sprite, 101, 1, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, map1
+sprite, 102, 2, 254, 22, 32, 32, 1, 0, 255, 1, 1, 0, redmousecursor
+sprite, 103, 3, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, map2
+sprite, 110, 4, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, map3
+sprite, 111, 5, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, map4
+
+//health bar
+sprite, 120, 2, 6, 413, 31, 6, 1, 0, 255, 1, 1, 0, red health bar
+sprite, 121, 2, 6, 422, 31, 6, 1, 0, 255, 1, 1, 0, green health bar
+
+//upgrade icon
+sprite, 122, 2, 111, 8, 14, 13, 1, 0, 255, 1, 1, 0, upgrade symbol
+
+
+//defensive weapons
+sprite, 200, 2, 2, 3, 32, 32, 1, 0, 255, 1, 1, 0, mg_tripod
+sprite, 201, 2, 36, 3, 51, 51, 1, 0, 255, 1, 1, 0, mg
+sprite, 202, 2, 2, 69, 32, 32, 1, 0, 255, 1, 1, 0, 20mm_tripod
+sprite, 203, 2, 37, 69, 65, 65, 1, 0, 255, 1, 1, 0, 20mm
+sprite, 204, 2, 3, 147, 32, 32, 1, 0, 255, 1, 1, 0, 3inch_tripod
+sprite, 205, 2, 39, 147, 65, 65, 1, 0, 255, 1, 1, 0, 3inch
+sprite, 206, 2, 3, 229, 32, 32, 1, 0, 255, 1, 1, 0, 6inch_tripod
+sprite, 207, 2, 39, 226, 71, 71, 1, 0, 255, 1, 1, 0, 6inch
+sprite, 208, 2, 7, 313, 32, 32, 1, 0, 255, 1, 1, 0, flak
+sprite, 209, 2, 6, 357, 32, 32, 1, 0, 255, 1, 1, 0, rocket
+
+//offensive weapons
+//ships
+sprite, 220, 2, 405, 7, 74, 74, 1, 0, 255, 1, 1, 0, riverboat
+sprite, 221, 2, 309, 5, 45, 45, 1, 0, 255, 1, 1, 0, riverboat_gun
+sprite, 222, 2, 403, 96, 105, 105, 1, 0, 255, 1, 1, 0, destroyer
+sprite, 223, 2, 312, 96, 73, 73, 1, 0, 255, 1, 1, 0, destroyer_gun
+sprite, 224, 2, 403, 220, 127, 127, 1, 0, 255, 1, 1, 0, cruiser
+sprite, 225, 2, 315, 220, 59, 59, 1, 0, 255, 1, 1, 0, cruiser_gun
+sprite, 226, 2, 405, 372, 181, 181, 1, 0, 255, 1, 1, 0, battleship
+sprite, 227, 2, 302, 370, 83, 83, 1, 0, 255, 1, 1, 0, battleship_gun
+
+//planes
+sprite, 240, 2, 522, 13, 27, 39, 1, 0, 255, 1, 1, 0, jet1 (red)
+sprite, 241, 2, 522, 57, 27, 39, 1, 0, 255, 1, 1, 0, jet2 (blue)
+//sprite, 240, 2, 573, 6, 92, 92, 1, 0, 255, 1, 1, 0, jet1 (red)
+//sprite, 241, 2, 573, 104, 92, 92, 1, 0, 255, 1, 1, 0, jet2 (blue)
+
+
+//tanks
+sprite, 250, 2, 661, 290, 36, 36, 1, 0, 255, 3, 1, 0.1, tank1
+sprite, 251, 2, 826, 241, 48, 48, 1, 0, 255, 1, 1, 0, tank1_gun
+sprite, 252, 2, 662, 328, 35, 35, 1, 0, 255, 3, 1, 0.1, tank2
+sprite, 253, 2, 840, 365, 60, 60, 1, 0, 255, 1, 1, 0, tank2_gun
+sprite, 254, 2, 661, 365, 36, 36, 1, 0, 255, 3, 1, 0.1, tank3
+sprite, 255, 2, 867, 304, 50, 50, 1, 0, 255, 1, 1, 0, tank3_gun
+
+//projectiles
+sprite, 300, 2, 15, 510, 9, 9, 1, 1.57, 255, 1, 1, 0, machine gun
+sprite, 301, 2, 38, 510, 12, 12, 1, 1.57, 255, 1, 1, 0, 20 mm
+sprite, 302, 2, 12, 490, 5, 5, 1, 0, 255, 1, 1, 0, 3 inch cannon
+sprite, 303, 2, 41, 488, 8, 8, 1, 0, 255, 1, 1, 0, 6 inch cannon
+sprite, 304, 2, 102, 476, 20, 20, 1, 0, 255, 1, 1, 0, flak
+
+
+//shadows of sprites (weapons) offset by 200
+sprite, 401, 2, 476, 693, 48, 48, 1, 0, 255, 1, 1, 0, machine gun
+sprite, 403, 2, 528, 600, 75, 75, 1, 0, 255, 1, 1, 0, 20 mm
+sprite, 405, 2, 528, 756, 75, 75, 1, 0, 255, 1, 1, 0, 3" cannon
+sprite, 407, 2, 528, 678, 75, 75, 1, 0, 255, 1, 1, 0, 6" cannon
+sprite, 408, 2, 476, 601, 48, 48, 1, 0, 255, 1, 1, 0, flak
+sprite, 409, 2, 476, 647, 48, 48, 1, 0, 255, 1, 1, 0, rocket launcher
+sprite, 420, 2, 528, 834, 75, 75, 1, 0, 255, 1, 1, 0, riverboat
+sprite, 422, 2, 612, 600, 120, 120, 1, 0, 255, 1, 1, 0, destroyer
+sprite, 424, 2, 613, 718, 120, 120, 1, 0, 255, 1, 1, 0, cruiser
+sprite, 426, 2, 737, 600, 180, 180, 1, 0, 255, 1, 1, 0, battleship
+
+sprite, 440, 2, 430, 601, 48, 48, 1, 0, 255, 1, 1, 0, jet1
+sprite, 441, 2, 430, 647, 48, 48, 1, 0, 255, 1, 1, 0, jet2
+sprite, 450, 2, 430, 693, 48, 48, 1, 0, 255, 1, 1, 0, tank1
+sprite, 452, 2, 430, 739, 48, 48, 1, 0, 255, 1, 1, 0, tank2
+sprite, 454, 2, 476, 739, 48, 48, 1, 0, 255, 1, 1, 0, tank3
+

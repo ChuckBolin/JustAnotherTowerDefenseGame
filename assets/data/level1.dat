@@ -1,0 +1,136 @@
+//****************************************************
+//  LEVEL 1 
+//****************************************************
+
+map_file, 101 
+back_color, 0, 0, 0
+screen_color, 150, 160, 130
+time, 3600
+show_grid, 1
+show_map, 1
+show_legal_grid, 0
+show_tracks, 0
+hq, 190, 505   //head quarters - defensive position
+credits,4000
+
+firing, 1
+
+//balancing factors
+wavecountdivisor, 10
+advancedfactor, 1.5
+beginnerfactor, 1
+creditmultiplier, 100
+scoremultiplier, 50
+upgrademultiplier1, 1.5
+upgrademultiplier2, 2.5
+upgrademultiplier3, 3.5
+upgradecostmultiplier1, 0.75
+upgradecostmultiplier2, 1.5
+upgradecostmultiplier3, 3
+repaircostmultiplier1, 0.50
+repaircostmultiplier2, 1.0
+repaircostmultiplier3, 1.5
+damagebalanceupper, 1.1
+damagebalancelower, 0.9
+
+//define legal cells in map
+legal, clear
+legal, 6, 14, 3 //island
+legal, 7, 13, 5
+legal, 8, 13, 4
+legal, 9, 20, 5 //island
+legal, 10, 19, 6
+legal, 11, 18, 7
+legal, 12, 19, 5
+legal, 13, 20, 3
+legal, 11, 13, 3 //island
+legal, 12, 13, 3
+legal, 8, 1, 4 //main land
+legal, 9, 1, 5
+legal, 10, 1, 5
+legal, 11, 1, 5
+legal, 12, 1, 6
+legal, 13, 1, 7
+legal, 14, 1, 17
+legal, 15, 1, 18
+legal, 16, 1, 21
+legal, 17, 1, 22
+legal, 18, 1, 8
+legal, 18, 20, 3
+legal, 19, 1, 8
+legal, 20, 1, 8
+legal, 21, 1, 9
+legal, 13, 32, 1
+legal, 14, 29, 4
+legal, 15, 29, 4
+legal, 16, 29, 4
+legal, 17, 29, 4
+legal, 18, 29, 4
+legal, 17, 25, 2
+legal, 18, 25, 2
+legal, 19, 25, 8
+legal, 20, 24, 9
+legal, 21, 21, 12
+
+//sea routes - bottom to top
+track, 0, 1207, 308, 10, 883, 389, 10, 749, 491, 10, 730, 598, 10, 553, 609, 10, 340, 636, 10, 296, 610, 10, 294, 574, 10, 716, 580, 10, 758, 416, 10, 1083, 167, 10
+track, 1, 1063, 146, 10, 796, 360, 10, 693, 442, 10, 647, 460, 10, 526, 379, 10, 444, 391, 10, 373, 382, 10, 140, 199, 10, -150, 199, 10
+track, 2, 1333, 125, 10, 783, 197, 20, 619, 199, 20, 526, 290, 20, 351, 272, 20, 200, 149, 20, -200, 149, 20
+track, 3, 1063, 75, 10, 552, 103, 10, -100, 60, 10
+
+//air routes - top to bottom
+track, 4, 976, -39, 10, 826, 321, 10, 550, 505, 10, -50, 521, 10
+track, 5, 1065, 385, 10, 685, 578, 10, 190, 581, 10, -50, 432, 10
+track, 6, 1064, 518, 10, 738, 623, 10, 213, 618, 10, -44, 671, 10
+
+//wave, timeToStart(seconds), trackIndex, objectID, quantity, spawnInterval (seconds)
+wave, 1, 0, 7, 5, 4
+wave, 21, 4, 11, 5, 3
+wave, 25, 0, 7, 6, 4
+wave, 35, 5, 12, 6, 2
+wave, 47, 1, 8, 4, 7
+wave, 57, 0, 7, 5, 4
+wave, 79, 1, 8, 3, 7
+wave, 82, 2, 9, 1, 1
+wave, 83, 4, 12, 6, 3
+wave, 89, 1, 8, 3, 8
+wave, 100, 0, 7, 5, 4
+wave, 108, 4, 11, 6, 2
+wave, 112, 5, 11, 8, 1
+wave, 119, 6, 12, 7, 2
+wave, 128, 2, 8, 5, 7
+wave, 140, 0, 7, 6, 4
+wave, 150, 5, 12, 8, 1
+wave, 158, 2, 9, 3, 9
+wave, 168, 3, 10, 1, 1
+wave, 175, 6, 11, 8, 2
+wave, 185, 0, 7, 9, 5
+wave, 195, 2, 9, 1, 8
+wave, 203, 1, 8, 4, 7
+wave, 209, 4, 11, 6, 2
+wave, 218, 5, 12, 7, 3
+wave, 224, 6, 12, 8, 1
+wave, 232, 0, 7, 6, 5
+wave, 240, 1, 8, 3, 5
+wave, 250, 2, 9, 2, 10
+wave, 260, 1, 8, 3, 5
+wave, 275, 3, 9, 2, 9
+wave, 277, 6, 11, 7, 3
+wave, 287, 4, 12, 5, 1
+wave, 292, 0, 7, 5, 4
+wave, 308, 3, 10, 2, 20
+wave, 320, 2, 9, 3, 10
+wave, 322, 4, 12, 6, 1
+wave, 327, 5, 12, 7, 2
+wave, 333, 6, 12, 8, 2
+wave, 342, 3, 10, 1, 20
+wave, 349, 0, 7, 6, 5
+wave, 359, 1, 8, 3, 8
+wave, 370, 2, 9, 3, 10
+wave, 385, 3, 10, 2, 20
+wave, 390, 6, 11, 12, 2
+wave, 398, 0, 7, 5, 4
+wave, 406, 2, 7, 3, 5
+wave, 414, 0, 7, 7, 4
+wave, 420, 3, 10, 1, 1
+wave, 425, 6, 11, 25, 1

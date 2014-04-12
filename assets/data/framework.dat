@@ -1,0 +1,102 @@
+texture, 100, banner.png, title page
+texture, 101, menu.png, menu choices
+texture, 102, bling2.png, UI stuff
+texture, 103, ui.png, User Interface stuff
+texture, 104, help.png, help screen
+
+//intro screen
+sprite, 1000, 100, 0, 0, 843, 400, 1, 0, 255, 1, 1, 0, Title
+sprite, 1001, 100, 0, 401, 843, 400, 1, 0, 255, 1, 1, 0, Title with craters
+sprite, 1002, 100, 7, 810, 480, 207, 1, 0, 255, 1, 1, 0, or is it?
+
+//4 small maps for menu screen
+sprite, 1003, 101, 0, 0, 512, 384, 1, 0, 255, 1, 1, 0, protect harbor
+sprite, 1004, 101, 512, 0, 512, 384, 1, 0, 255, 1, 1, 0, defend the hill
+sprite, 1005, 101, 0, 387, 512, 384, 1, 0, 255, 1, 1, 0, defend the airport
+sprite, 1006, 101, 512, 387, 512, 384, 1, 0, 255, 1, 1, 0, undecided
+
+//4 arrows
+sprite, 1007, 101, 5, 777, 13, 50, 1, 0, 255, 1, 1, 0, left gray arrow
+sprite, 1008, 101, 19, 777, 13, 50, 1, 0, 255, 1, 1, 0, left red arrow
+sprite, 1009, 101, 34, 777, 13, 50, 1, 0, 255, 1, 1, 0, right red arrow
+sprite, 1010, 101, 48, 777, 13, 50, 1, 0, 255, 1, 1, 0, right gray arrow
+
+//pause game
+sprite, 1011, 102, 0, 0, 500, 155, 1, 0, 255, 1, 1, 0, pause game
+
+//difficulty
+sprite, 1012, 102, 24, 175, 300, 75, 1, 0, 255, 1, 1, 0, beginner
+sprite, 1013, 102, 14, 251, 330, 75, 1, 0, 255, 1, 1, 0, advanced
+sprite, 1014, 102, 3, 330, 561, 82, 1, 0, 255, 1, 1, 0, stars
+
+//click to play
+sprite, 1015, 102, 2, 418, 414, 189, 1, 0, 255, 1, 1, 0, click to play
+
+//exit game
+sprite, 1016, 102, 585, 2, 165, 114, 1, 0, 255, 1, 1, 0, exit game
+
+//HQ
+sprite, 1030, 103, 122, 279, 74, 74, 1, 0, 255, 1, 1, 0, HQ
+sprite, 1031, 103, 228, 279, 74, 74, 1, 0, 255, 1, 1, 0, HQ_damaged
+
+//numbers
+sprite, 1120, 103, 377, 8, 143, 20, 1, 0, 255, 1, 1, 0, score font
+sprite, 1121, 103, 379, 31, 76, 12, 1, 0, 255, 1, 1, 0, info font
+sprite, 1200, 103, 377, 8, 16, 20, 1, 0, 255, 1, 1, 0, font 0
+sprite, 1201, 103, 392, 8, 15, 20, 1, 0, 255, 1, 1, 0, font 1
+sprite, 1202, 103, 406, 8, 15, 20, 1, 0, 255, 1, 1, 0, font 2
+sprite, 1203, 103, 420, 8, 14, 20, 1, 0, 255, 1, 1, 0, font 3
+sprite, 1204, 103, 433, 8, 17, 20, 1, 0, 255, 1, 1, 0, font 4
+sprite, 1205, 103, 449, 8, 14, 20, 1, 0, 255, 1, 1, 0, font 5
+sprite, 1206, 103, 462, 8, 15, 20, 1, 0, 255, 1, 1, 0, font 6
+sprite, 1207, 103, 476, 8, 15, 20, 1, 0, 255, 1, 1, 0, font 7
+sprite, 1208, 103, 490, 8, 15, 20, 1, 0, 255, 1, 1, 0, font 8
+sprite, 1209, 103, 504, 8, 16, 20, 1, 0, 255, 1, 1, 0, font 9
+
+sprite, 1210, 103, 386, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 0
+sprite, 1211, 103, 393, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 1
+sprite, 1212, 103, 400, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 2
+sprite, 1213, 103, 407, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 3
+sprite, 1214, 103, 415, 32, 8, 10, 1, 0, 255, 1, 1, 0, font 4
+sprite, 1215, 103, 421, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 5
+sprite, 1216, 103, 428, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 6
+sprite, 1217, 103, 435, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 7
+sprite, 1218, 103, 442, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 8
+sprite, 1219, 103, 449, 32, 7, 10, 1, 0, 255, 1, 1, 0, font 9
+sprite, 1220, 103, 458, 32, 4, 10, 1, 0, 255, 1, 1, 0, font .
+
+//REPAIR AND UPGRADE
+sprite, 1230, 103, 559, 4, 191, 32, 1, 0, 255, 1, 1, 0, Repair sprite
+sprite, 1231, 103, 559, 45, 191, 32, 1, 0, 255, 1, 1, 0, Upgrade sprite
+sprite, 1232, 103, 559, 85, 227, 32, 1, 0, 255, 1, 1, 0, R/U:
+
+//small map outline
+sprite, 1401, 102, 429, 577, 555, 426, 1, 0, 255, 1, 1, 0, outline
+
+//end of game sprites
+sprite, 1402, 102, 600, 124, 410, 114, 1, 0, 255, 1, 1, 0, you lose
+sprite, 1403, 102, 599, 258, 366, 116, 1, 0, 255, 1, 1, 0, you win
+sprite, 1450, 104, 0, 0, 1024, 768, 1, 0, 255, 1, 1, 0, help
+
+//new interface
+sprite, 1500, 103, 0, 623, 1024, 145, 1, 0, 255, 1, 1, 0, ui_panel
+sprite, 1501, 103, 47, 44, 69, 32, 1, 0, 255, 1, 1, 0, pause button
+sprite, 1502, 103, 47, 3, 69, 37, 1, 0, 255, 1, 1, 0, play button
+sprite, 1503, 103, 124, 44, 30, 31, 1, 0, 255, 1, 1, 0, gray times1
+sprite, 1504, 103, 162, 44, 30, 31, 1, 0, 255, 1, 1, 0, green times2
+sprite, 1505, 103, 307, 132, 47, 52, 1, 0, 255, 1, 1, 0, yellow outline
+sprite, 1506, 103, 124, 3, 30, 31, 1, 0, 255, 1, 1, 0, green times1
+sprite, 1507, 103, 162, 3, 30, 31, 1, 0, 255, 1, 1, 0, gray times2
+
+sprite, 1510, 103, 49, 86, 30, 31, 1, 0, 255, 1, 1, 0, music_off_gray
+sprite, 1511, 103, 82, 86, 30, 31, 1, 0, 255, 1, 1, 0, music_on_green
+sprite, 1512, 103, 49, 119, 30, 31, 1, 0, 255, 1, 1, 0, sound_off_gray
+sprite, 1513, 103, 82, 119, 30, 31, 1, 0, 255, 1, 1, 0, sound_on_green
+
+//grayed out icons on UI panel
+sprite, 1600, 103, 349, 295, 47, 51, 1, 0, 255, 1, 1, 0, grayed out MG icon
+sprite, 1601, 103, 399, 295, 47, 51, 1, 0, 255, 1, 1, 0, grayed out 20 MM
+sprite, 1602, 103, 448, 295, 47, 51, 1, 0, 255, 1, 1, 0, grayed out 3"
+sprite, 1603, 103, 498, 295, 47, 51, 1, 0, 255, 1, 1, 0, grayed out 6"
+sprite, 1604, 103, 548, 295, 47, 51, 1, 0, 255, 1, 1, 0, grayed out rocket
+sprite, 1605, 103, 598, 295, 47, 51, 1, 0, 255, 1, 1, 0, grayed out flak

@@ -1,0 +1,107 @@
+//Scrolling credits at end of program
+//text 0 - 13
+//text, hor pos, font, red, green, blue, string
+//sprite, hor pos, sprite ID
+backcolor, 0, 0, 0//150, 160, 130
+vspace
+vspace
+vspace
+text, -1, 12, 255, 255, 0, "Game Institute - Game Challenge 14"
+vspace
+sprite, -1, 1003
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+text, -1, 12, 255, 255, 255, "Created by Chuck Bolin"
+text, -1, 12, 255, 255, 255, "November 2009 - January 2010"
+vspace
+sprite, -1, 1004
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+text, -1, 12, 190, 20, 10, Special THANKS to my wife Grace
+text, -1, 12, 190, 20, 10, for allowing me the time to program!
+vspace
+sprite, -1, 1005
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+text, -1, 12, 0, 255, 0, Program inspired by " 'Warzone' - Written by Jeff Gold"
+text, -1, 12, 0, 255, 0, at www.madcowinteractive.com
+vspace
+sprite, -1, 1006
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+vspace
+sprite, -1, 1030
+scrollspeed, 4
+scrolltime, 0.025
+
+timer, 18
+
+
+

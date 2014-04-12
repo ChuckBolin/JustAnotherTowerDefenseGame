@@ -1,0 +1,19 @@
+//effects.dat file
+0, assets\\effects\\Fire1.pyro, small fire
+1, assets\\effects\\smoke1.pyro, light gray smoke
+2, assets\\effects\\smoke3.pyro, brief smoke
+
+//0, assets\\effects\\ExplodeFlash.pyro, flash explosion
+//1, assets\\effects\\Explosion1.pyro, big explosion
+//4, assets\\effects\\Fire2.pyro, small fire
+//5, assets\\effects\\Fire3.pyro, small fire
+//6, assets\\effects\\SmokeTest.pyro, dom smoke
+//7, assets\\effects\\Pyro1.pyro, test
+//8, assets\\effects\\cbtest1.pyro, test
+//10, assets\\effects\\smoke_a.pyro, brief smoke 1
+//11, assets\\effects\\smoke_b.pyro, brief smoke 2
+//12, assets\\effects\\smoke_c.pyro, brief smoke 3
+//13, assets\\effects\\smoke_d.pyro, brief smoke 4
+//14, assets\\effects\\cbtest1.pyro
+
+
